@@ -1,0 +1,526 @@
+ @media only screen and ( max-width: 1000px) and (min-width: 0px){
+
+ /*Markets Page MarketsComponent2.Js*/
+ body
+.MA{  
+  display: grid;  
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(30, 1fr);
+  gap: 20px;
+
+  }
+  
+  .SideBar{
+    grid-column: 1/17;
+    grid-row: 1/ 1;
+  }
+  
+  .MaTick{
+  grid-column: 1 / 17; 
+  grid-row: 2/ 3;
+  max-width: 100%
+  
+  }
+  
+  body .MaMar{
+  grid-column: 1 / 16 ; 
+  grid-row: 3/9;
+  max-width: 1000px;  
+  }
+
+  body
+  .MaGraph{
+   grid-column: 1/16;
+   grid-row: 10/ 17;
+   max-width: 1500px;
+  
+  
+  }
+  body
+  .MaOver{
+    grid-column: 1 / 16 ; 
+    grid-row: 18 / 24 ;
+    max-width: 1000px;
+  
+  }
+  
+  body
+  .MaForex{
+    grid-column: 1/16;
+    grid-row: 25 / 30;
+    max-width: 1500px;
+  
+  
+  }
+  /* MaForexCheckBox */
+  .MuiSelect-selectMenu{
+    color:white!important
+  }
+  .MuiSelect-icon{
+    color:white!important
+  }
+  /* Ends Here */
+
+
+/* CompanyProfile Page CompanyProfile.js */
+body
+.CA{  
+  display: grid;  
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  gap: 20px;
+  
+  }
+
+  body
+.Symb{
+  grid-column: 1/17;
+  grid-row: 2/3;
+
+}
+
+  body
+.CaGraph{
+  grid-column: 1/16;
+  grid-row: 3/5;
+}
+
+body
+.Comp{
+  grid-column: 1/17;
+  grid-row: 5/8;
+}
+
+body
+.Funde{
+  grid-column:1/17;
+  grid-row: 8/11;
+}
+
+
+body
+.Techn{
+  grid-column:1/17;
+  grid-row:11/13;
+}
+/* Ends Here */
+
+
+/* MarketsScreener page MarketsScreener.js */
+body
+.SA{  
+  display: grid;  
+  grid-template-columns: repeat(1, 16fr);
+  grid-template-rows: repeat(10, 100px);
+  gap: 0px;
+  
+  }
+body
+.Scree{
+  grid-column: 1/17;
+  grid-row: 2/10;
+ 
+  }
+
+/* Ends Here */
+
+
+/* Crypto Overview page CryptoProfile.js */
+
+.CR{  
+  display: grid;  
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  gap: 20px;
+  
+  
+  }
+  
+.SymbCr{
+  grid-column: 1/17;
+  grid-row: 2/3;
+
+
+}
+
+body
+.CrGraph{
+  grid-column: 1/16;
+  grid-row: 3/7;
+}
+
+
+.OverCr{
+  grid-column: 1/17;
+  grid-row: 7/13;
+}
+
+
+
+/* Ends Here */
+
+/* Technical Analysis page TechnicalAnalysis.js */
+body
+.TA{  
+  display: grid;  
+  grid-template-columns: repeat(1, 16fr);
+  grid-template-rows: repeat(7, 100px);
+  gap: 20px;
+  
+  }
+body
+.TaChart{
+  grid-column: 1/17;
+  grid-row: 2/7;
+ 
+  }
+
+/* Ends Here */
+
+body
+#sidebar {
+  background-color:  #181C28;
+  bottom: 0%;
+  top: 10%;
+  display: block;
+  left: 0%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 0;
+  position: fixed;
+  width: 45%;
+  z-index: 1000;
+ 
+
+}
+
+
+
+
+}
+
+
+
+/*Markets Page MarketsComponent2.Js*/
+.MA{  
+display: grid;  
+grid-template-columns: repeat(16, 1fr);
+grid-template-rows: repeat(24, 1fr);
+gap: 20px;
+
+
+}
+
+.SideBar{
+  grid-column: 1/17;
+  grid-row: 1/ 1;
+}
+
+.MaTick{
+grid-column: 1 / 17; 
+grid-row: 2/ 3;
+
+max-width: 100%
+
+}
+
+.MaMar{
+grid-column: 1 / 6 ; 
+grid-row: 3/14;
+
+max-width: 1000px;
+
+
+
+}
+
+.MaGraph{
+ grid-column: 6/17;
+ grid-row: 3/ 15;
+ max-width: 1500px;
+
+
+}
+
+.MaOver{
+  grid-column: 1 / 6 ; 
+  grid-row: 15 / 25;
+  max-width: 1000px;
+
+}
+
+.MaForex{
+  grid-column: 6/17;
+  grid-row: 15/ 25;
+  max-width: 1500px;
+
+
+}
+/* MaForexCheckBox */
+.MuiSelect-selectMenu{
+  color:white!important
+}
+.MuiSelect-icon{
+  color:white!important
+}
+
+/* Ends Here */
+
+/* CompanyProfile Page CompanyProfile.js */
+.CA{  
+  display: grid;  
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+  gap: 20px;
+  
+  
+  }
+  
+.CaGraph{
+  grid-column: 1/17;
+  grid-row: 3/7;
+}
+
+.Symb{
+  grid-column: 1/17;
+  grid-row: 2/3;
+
+
+}
+
+.Comp{
+  grid-column: 1/5;
+  grid-row: 7/10;
+}
+
+.Techn{
+  grid-column: 5/10;
+  grid-row: 7/10;
+}
+
+.Funde{
+  grid-column: 10/17;
+  grid-row: 7/10;
+}
+/* Ends Here */
+
+/* MarketsScreener page MarketsScreener.js */
+
+.SA{  
+
+  display: grid;  
+  grid-template-columns: repeat(1, 16fr);
+  grid-template-rows: repeat(10, 100px);
+  gap: 20px;
+  
+  }
+
+.Scree{
+  grid-column: 1/17;
+  grid-row: 2/10;
+ 
+  }
+
+/* Ends Here */
+
+/* Crypto Overview page CryptoProfile.js */
+.CR{  
+  display: grid;  
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  gap: 20px;
+  
+  
+  }
+  
+.SymbCr{
+  grid-column: 1/17;
+  grid-row: 2/3;
+
+
+}
+  
+.CrGraph{
+  grid-column: 1/17;
+  grid-row: 3/7;
+}
+
+
+.OverCr{
+  grid-column: 1/17;
+  grid-row: 7/13;
+}
+
+/* Ends Here */
+
+
+/* Technical Analysis page TechnicalAnalysis.js */
+
+.TA{  
+
+  display: grid;  
+  grid-template-columns: repeat(1, 16fr);
+  grid-template-rows: repeat(10, 100px);
+  gap: 20px;
+  
+  }
+
+.TaChart{
+  grid-column: 1/17;
+  grid-row: 2/11;
+ 
+  }
+
+/* Ends Here */
+
+  /*Side Bar Style*/
+
+  /* Buy me COffee */
+
+  #bmc-wbtn{
+    top: 0px;
+    background-color: yellow!important;
+}
+
+#bmc-wbtn + div{
+    top:0px;
+}
+
+
+.navMS{ 
+  background-color: #181C28;
+  position: relative;
+  display: block;
+  font-size: 2em;
+  font-weight: bolder;
+  padding: 25px 10px;
+  color:white;
+  text-decoration:none; 
+}
+
+.navMS:hover{ 
+background-color: yellow;
+  color:black;
+  font-weight: bolder;
+  padding: 25px 10px;
+
+}
+
+
+.MarScIcon{
+  color: grey;
+  font-weight: 900;
+}
+
+
+.MarketSnap:hover{
+color:yellow!important;
+
+  }
+
+.MainNav{ 
+  background-color: transparent;
+   position: fixed; 
+   top: 0px;
+   left: 0px;
+   height: 6%; 
+   width: 100%;
+}
+
+  #sidebar {
+    background-color:  #181C28;
+    bottom: 0%;
+    top: 5%;
+    display: block;
+    left: 0%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0;
+    position: fixed;
+    width: 20%;
+    z-index: 1000;
+   
+
+  }
+  
+  #sidebar > .nav {
+    padding-bottom: 24px;
+    background-color:  #181C28;
+    
+  }
+ 
+
+/*End of Sidebar Styles*/
+
+
+
+html{ 
+  min-height: 100%;
+  position: relative;
+  
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  overflow-x: hidden;
+  padding-bottom: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Dropdown for Trading View Widgets */
+
+/*Hide ScrollBar*/
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
+
+.exchange{
+  background:#1E222D;
+   width: 170px;
+   padding: 2px;
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:11px;
+   font-weight:600;
+   color:#fff;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 42px;
+  -webkit-appearance: none;
+ 
+  }
+
+.select-div{
+	width: 120px;
+	height: 42px;
+	overflow: hidden;
+	border-top:#575757 1px solid;
+	-webkit-border-radius: 4px 4px 4px 4px;
+	 -moz-border-radius: 4px 4px 4px 4px;
+		  border-radius: 4px 4px 4px 4px;
+	-webkit-box-shadow: inset 0 2px 4px rgba(107, 105, 105, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+	 -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+		  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+		  -moz-box-shadow:    0px 8px 3px -9px #000000;
+		  -webkit-box-shadow: 0px 8px 3px -9px #000000;
+      box-shadow:         0px 8px 3px -9px #000000;
+     
+
+}
+
+select > option { 
+  background: #1E222D;
+  color: white;
+}
+
